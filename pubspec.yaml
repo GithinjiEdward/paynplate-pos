@@ -1,0 +1,57 @@
+name: eatery_pos
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  share_plus: ^13.0.0
+  excel: ^4.0.3
+  path_provider: ^2.1.2
+  fl_chart: ^1.2.0
+  firebase_core: ^4.7.0
+  cloud_firestore: ^6.3.0
+  firebase_auth: ^6.4.0
+  device_info_plus: ^13.0.0
+  printing: ^5.14.3
+  pdf: ^3.12.0
+  print_bluetooth_thermal: ^1.1.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.4
+
+# --- ICON CONFIGURATION ---
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/PayNPlate.png"
+  adaptive_icon_background: "#F0C8AD"
+  adaptive_icon_foreground: "assets/PayNPlate.png"
+
+# --- SPLASH SCREEN CONFIGURATION ---
+flutter_native_splash:
+  color: "#F0C8AD"
+  image: assets/PayNPlate.png
+  android_12:
+    color: "#F0C8AD"
+    image: assets/PayNPlate.png
+
+# --- FLUTTER SETTINGS ---
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/dine.png
+    - assets/PayNPlate.png
