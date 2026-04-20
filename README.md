@@ -66,6 +66,26 @@ PayNPlate is a full-featured POS system that enables businesses to manage sales,
 
 ## 📱 Screenshots
 
-> (Add screenshots here)
+### 🔐 Login Screen
+![Login](screenshots/Login.png)
 
-Example:
+### 🔐 Business Registration Screen
+![Registration](screenshots/Business_Registration.png)
+
+### 🛒 POS Interface
+![POS](screenshots/Dashboard.png)
+
+### 🛒 Staff Registration Interface
+![POS](screenshots/Staff_Management.png)
+![POS](screenshots/Menu_Management.png)
+
+### 💳 Checkout / Payment
+![Checkout](screenshots/Menu_Cart.png)
+
+### 🧾 Receipt Preview
+![Receipt](screenshots/Payment.png)
+![Receipt](screenshots/Invoice.png)
+
+### 📊 Analytics Dashboard
+![Analytics](screenshots/analytics_weekly.png)
+![Analytics](screenshots/analytics_monthly.png)
